@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subho Durga Puja</title>
+    <meta
+      name="description"
+      content="A vibrant Durga Puja celebration website with a festive UI and immersive storytelling experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container">
+          <div class="brand-wrap">
+            <div class="brand-mark">D</div>
+            <div class="brand-text">
+              <span class="brand-name">Durga Puja</span>
+              <span class="brand-tag">Celebration</span>
+            </div>
+          </div>
+
+          <div class="nav-links">
+            <a href="#story">Story</a>
+            <a href="#events">Events</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#visit">Visit</a>
+          </div>
+
+          <a href="#join" class="btn btn-primary">Join the Fest</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-glow hero-glow-one"></div>
+          <div class="hero-glow hero-glow-two"></div>
+
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Shubho Bijoya • Subho Durga Puja</p>
+              <h1>
+                Welcome the divinity of Maa Durga with joy, devotion, and vibrant celebration.
+              </h1>
+              <p class="lead">
+                Experience the spirit of Bengal’s most cherished festival — lights, culture,
+                togetherness, and the blessings of the divine mother.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#events" class="btn btn-primary">Explore Events</a>
+                <a href="#story" class="btn btn-secondary">Our Story</a>
+              </div>
+
+              <div class="mini-stats">
+                <div>
+                  <strong>8 Days</strong>
+                  <span>of celebration</span>
+                </div>
+                <div>
+                  <strong>200+</strong>
+                  <span>festive rituals</span>
+                </div>
+                <div>
+                  <strong>1 Community</strong>
+                  <span>united in joy</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Decorative festive art representation">
+              <div class="mandala-card">
+                <div class="mandala mandala-outer"></div>
+                <div class="mandala mandala-middle"></div>
+                <div class="mandala mandala-inner"></div>
+                <div class="lotus-core">
+                  <span>ॐ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="story" class="story section-space">
+          <div class="container story-grid">
+            <div class="story-card info-card">
+              <p class="section-kicker">The Festival</p>
+              <h2>Celebrating faith, culture, and belonging.</h2>
+              <p>
+                Durga Puja symbolizes the victory of good over evil, and the triumph of
+                righteousness, courage, and compassion. It is a time of prayer, performance,
+                art, and shared joy.
+              </p>
+              <p>
+                From the festive dhakis to the fragrant flowers and the illuminated pandals,
+                every moment captures the heart of Bengal and beyond.
+              </p>
+            </div>
+
+            <div class="story-card stats-card">
+              <div class="stat-item">
+                <span class="stat-number">9</span>
+                <span class="stat-label">Days of devotion</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5</span>
+                <span class="stat-label">Aarti gatherings</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Spirit of togetherness</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="events" class="section-space events">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-kicker">Highlights</p>
+              <h2>What makes this celebration unforgettable</h2>
+            </div>
+
+            <div class="event-grid">
+              <article class="event-card">
+                <div class="event-icon">🎶</div>
+                <h3>Dhak & Dhol</h3>
+                <p>
+                  Feel the rhythm of traditional drumming that brings rhythm to the festive air.
+                </p>
+              </article>
+
+              <article class="event-card">
+                <div class="event-icon">🌼</div>
+                <h3>Pandal Décor</h3>
+                <p>
+                  Explore handcrafted installations and vibrant art inspired by myth, life, and color.
+                </p>
+              </article>
+
+              <article class="event-card">
+                <div class="event-icon">🕉️</div>
+                <h3>Maha Aarti</h3>
+                <p>
+                  Witness sacred rituals, devotional chants, and a deeply spiritual atmosphere.
+                </p>
+              </article>
+
+              <article class="event-card">
+                <div class="event-icon">🍲</div>
+                <h3>Community Feasts</h3>
+                <p>
+                  Share prasad, laughter, and warm hospitality with friends, families, and neighbors.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="countdown section-space">
+          <div class="container countdown-wrap">
+            <div class="countdown-copy">
+              <p class="section-kicker">Countdown</p>
+              <h2>Festival begins in</h2>
+            </div>
+
+            <div class="timer" aria-live="polite">
+              <div class="time-box">
+                <span id="days">00</span>
+                <small>Days</small>
+              </div>
+              <div class="time-box">
+                <span id="hours">00</span>
+                <small>Hours</small>
+              </div>
+              <div class="time-box">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+              </div>
+              <div class="time-box">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="gallery section-space">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-kicker">Moments</p>
+              <h2>The emotions of celebration</h2>
+            </div>
+
+            <div class="gallery-grid">
+              <div class="gallery-item tall">
+                <div class="overlay-text">Festive Lights</div>
+              </div>
+              <div class="gallery-item wide">
+                <div class="overlay-text">Prasad & Joy</div>
+              </div>
+              <div class="gallery-item">
+                <div class="overlay-text">Dandiya Nights</div>
+              </div>
+              <div class="gallery-item">
+                <div class="overlay-text">Cultural Arts</div>
+              </div>
+              <div class="gallery-item wide">
+                <div class="overlay-text">Family Togetherness</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="join" class="cta section-space">
+          <div class="container cta-card">
+            <div>
+              <p class="section-kicker">Join In</p>
+              <h2>Celebrate with devotion, music, and love.</h2>
+            </div>
+            <a href="#visit" class="btn btn-primary">Reserve Your Spot</a>
+          </div>
+        </section>
+
+        <section id="visit" class="visit section-space">
+          <div class="container visit-grid">
+            <div class="visit-card">
+              <p class="section-kicker">Location</p>
+              <h2>Venue Details</h2>
+              <ul>
+                <li><strong>Place:</strong> Shree Durga Puja Mandap</li>
+                <li><strong>Address:</strong> Kolkata, West Bengal</li>
+                <li><strong>Timings:</strong> 5:00 PM – 11:00 PM</li>
+                <li><strong>Entry:</strong> Open to all</li>
+              </ul>
+            </div>
+
+            <div class="visit-card map-card">
+              <div class="map-pin">📍</div>
+              <p>Festival grounds filled with lights, devotion, and joyful gatherings.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© 2026 Subho Durga Puja</p>
+          <p>May Maa Durga bless every home with peace, prosperity, and happiness.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
